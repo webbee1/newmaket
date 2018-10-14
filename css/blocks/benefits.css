@@ -1,0 +1,24 @@
+
+.benefits{
+  width: 274px;
+ 
+  margin:60px auto 0;
+  height: 430px;
+  background-color: #131415;
+  background-image: url(../../images/pattern/pattern.png);
+display:block;
+
+}
+.benefits__desc{
+  color: #fff;
+  text-align: center;
+  line-height: 1.67;
+  width:80%;
+  margin:0 auto;
+  padding:23px 0;
+}
+.benefits--text{
+  color: #f89513;
+margin-bottom:0;
+}
+

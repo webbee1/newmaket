@@ -1,0 +1,28 @@
+/*SIDEBAR*/
+.sidebar {
+  padding-right: 30px;
+  margin-left: 35px;
+}
+
+.sidebar__title {
+  font-family: 'open_sansbold';
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color: #221f1f;
+}
+
+.sidebar__title--grey {
+  color: #656464;
+  margin-bottom: 20px;
+}
+
+.sidebar__image {
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.sidebar__image:last-child {
+  margin-bottom: 0;
+}

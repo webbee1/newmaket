@@ -1,0 +1,91 @@
+.contacts-box {
+  text-align: right;
+  width: 50%;
+  position: relative;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  font-family: 'open_sansbold';
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
+
+.dropdown:hover .dropdown__link {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.dropdown__menu {
+  position: absolute;
+  padding: 15px;
+  width: 163px;
+  height: 70px;
+  top: 100%;
+  right: 0;
+  display: none;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity .5s;
+  right: -9999px;
+  box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+  border: none;
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown__menu {
+  right: 0;
+  opacity: 1;
+}
+
+.dropdown__menu:before {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -25px;
+  position: absolute;
+}
+
+.dropdown__link {
+  font-size: 14px;
+  color: rgba(248, 149, 19, 0.7);
+  text-decoration: underline;
+  font-family: 'open_sansbold';
+  transition: all 0.5s;
+}
+
+.dropdown__item {
+  font-size: 14px;
+  text-decoration: underline;
+  font-family: 'open_sansbold';
+  font-weight: 300;
+  color: #221f1f;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+
+.dropdown__item:first-child {
+  color: #f89513;
+}
+
+.dropdown__menu:after {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: 0;
+  left: -10px;
+  right: 10px;
+  top: -8px;
+  transform: rotate(45deg);
+}

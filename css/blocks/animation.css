@@ -1,0 +1,40 @@
+.intro__logo{
+  opacity: 0;
+    animation-name: bounce;
+    animation-duration: 1.1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bounce{
+  0% {
+    opacity: 0;
+    transform: rotate3d(.0, .0, .0);
+  }
+
+  20% {
+    transform: scale3d(1, 1, 1);
+    
+  }
+
+  40% {
+    opacity:0.8;
+    transform: scale3d(.5, .5, .5);
+  }
+
+  60% {
+   
+    transform: scale3d(1.0, 1.0, 1.0);
+  }
+
+  80% {
+    transform: scale3d(.8, .8, .8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
