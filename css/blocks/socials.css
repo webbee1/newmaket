@@ -26,8 +26,8 @@
 }
 
 .socials__link {
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   border-radius:50%;
   display: block;
   background-position: center center;
@@ -39,26 +39,26 @@
   transition: 0.5s;
 }
 
+
 .socials__link--vk {
-  background: url('../../images/sprites/sprite_all.png') 83px 46px;
-  
+  background: url('../../images/sprites/sprite_all.png') 65px 42px;
 }
 
 .socials__link--fb {
-  background: url('../../images/sprites/sprite_all.png') -82px 43px;
+  background: url('../../images/sprites/sprite_all.png') -69px 40px;
 }
 
 .socials__link--goo {
-  background: url('../../images/sprites/sprite_all.png') 19px 45px;
-  
+  background: url('../../images/sprites/sprite_all.png') 17px 41px;
 }
 
 .socials__link--tw {
- background: url('../../images/sprites/sprite_all.png') 40px 45px;
- 
+ background: url('../../images/sprites/sprite_all.png') 33px 41px;
 }
 
 .socials__link--mail {
-  background: url('../../images/sprites/sprite_all.png') 62px 45px;
- 
+  background: url('../../images/sprites/sprite_all.png') 48px 41px;
 }
+
+
+

@@ -1,51 +1,45 @@
 /*FEAUTURES*/
 .features {
+  position: relative;
+  top: 60px;
   width: 267px;
-  border: 1px solid black;
   line-height: 1.76;
+ 
   color: #221f1f;
   text-align: center;
+  min-height: 287px;
+  border: 1px solid black;
 }
 
-.title__section {
-  font-family: 'open_sansbold';
+.title__features {
   font-size: 18px;
-  font-weight: 900;
-  padding: 18px 0;
-  overflow: hidden;
-}
-
-span.title {
-  vertical-align: middle;
+  letter-spacing: 0.5px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 15px 0;
 }
 
 .features__title {
   font-size: 11px;
+  margin-bottom: 10px;
   letter-spacing: 2.6px;
-  font-family: 'open_sansbold';
-  text-align: center;
-  margin-bottom: 12px;
 }
 
 .features__list {
   list-style: disc;
+  list-style: outside;
   display: inline-block;
   vertical-align: middle;
-}
-
-.features__col-list {
-  margin-bottom: 25px;
 }
 
 .features__item {
   font-size: 16px;
   text-align: left;
   letter-spacing: 1.3px;
-  margin-bottom: 12px;
-  margin-left:20px;
+  margin-bottom: 11px;
   list-style: disc;
+  list-style: outside;
   line-height: 1.67;
-  
 }
 
 .features__item:last-child {
@@ -54,13 +48,15 @@ span.title {
 
 span.features__desc {
   display: block;
-
+  margin-bottom: 4px;
 }
 
 .features__desc,
-.feature__list {
+.features__list {
   font-size: 18px;
+  font-family:"open_sanslight";
   font-weight: 500;
   line-height: 1.67;
   vertical-align: middle;
+  color:#221f1f;
 }

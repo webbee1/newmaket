@@ -1,28 +1,42 @@
+
 /*SIDEBAR*/
-.sidebar {
-  padding-right: 30px;
-  margin-left: 35px;
+.side-left {
+  display:inline-flex;
+ align-self:flex-start;
+  flex-direction: column;
+  flex-basis:content;
+  align-items:center;
+  order:-1;
+  margin:0 auto;
+  justify-content: flex-end;
+  width:18%;
 }
 
-.sidebar__title {
+.side-left__title {
   font-family: 'open_sansbold';
   font-weight: 500;
   font-size: 12px;
+  line-height: 1.75;
   letter-spacing: 2.4px;
-  text-align: center;
+  text-align: left;
   color: #221f1f;
 }
 
-.sidebar__title--grey {
+.side-left__title--grey {
   color: #656464;
-  margin-bottom: 20px;
+  margin-bottom:15px;
 }
 
-.sidebar__image {
+.side-left__images {
+	align-items:flex-start;
   text-align: center;
-  margin-bottom: 21px;
+  margin-bottom:33px
 }
-
-.sidebar__image:last-child {
+.side-left__image{
+  width: 160px;
+  overflow:hidden;
+  margin-bottom:17px;
+}
+.side-left__image:last-child {
   margin-bottom: 0;
 }

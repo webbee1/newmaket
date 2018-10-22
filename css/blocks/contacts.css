@@ -1,12 +1,11 @@
 .contacts-box {
-  text-align: right;
-  width: 50%;
+  display: flex;
   position: relative;
+  display: inline-block;
 }
 
 .contacts__phone {
   font-size: 21px;
-  font-family: 'open_sansbold';
   color: #fff;
   display: block;
   margin-bottom: 5px;
@@ -53,6 +52,8 @@
 }
 
 .dropdown__link {
+  display: flex;
+  justify-content: flex-end;
   font-size: 14px;
   color: rgba(248, 149, 19, 0.7);
   text-decoration: underline;
@@ -70,7 +71,6 @@
   padding: 2px;
   text-decoration: none;
 }
-
 
 .dropdown__item:first-child {
   color: #f89513;
