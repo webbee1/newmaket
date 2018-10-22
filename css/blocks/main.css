@@ -1,4 +1,4 @@
-.flex-wrapper {
+/*.flex-wrapper {
   display: flex;
   
 }
@@ -14,4 +14,12 @@
 }
 .col__left {
   flex: 1;
+}*/
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+ 
+
+
 }

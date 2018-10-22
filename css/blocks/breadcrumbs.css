@@ -1,11 +1,16 @@
 /*REVIEW*/
-
+.breadcrumbs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:5px;
+}
 .breadcrumbs__item{
   display:inline-block;
   vertical-align:middle;
   font-size:14px;
   font-family:"open_sanslight_italic";
-  margin-bottom:25px;
+  line-height:66px;
 }
 .breadcrumbs__item-link.breadcrumds__item__link--active{
   color: rgba(248, 149, 19, 0.8);
