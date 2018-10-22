@@ -52,3 +52,9 @@
   color: #f89513;
 }
 
+.paginator-rev{
+ justify-content:flex-start;
+  margin-left:14%;
+ 
+  margin-bottom: 63px;
+}

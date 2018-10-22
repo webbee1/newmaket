@@ -27,6 +27,8 @@
 
 .form__label {
   font-size: 14px;
+  font-family: 'open_sanslight';
+  font-weight:700;
   color: #221f1f;
   margin-bottom: 9px;
 }
@@ -100,6 +102,7 @@
 
 .form__radio-text {
   vertical-align: middle;
+  font-family: 'open_sanslight';
 }
 
 .form__submit-label {

@@ -4,20 +4,30 @@
   height: 430px;
   background-color: #131415;
   background-image: url(../../images/pattern/pattern.png);
-  display: block;
+display:inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  position:relative;
 
+   top:50px;
+   margin-bottom:50px;
 }
 
+
+
 .benefits__desc {
+  font-family: 'open_sanslight';
+  font-size: 18px;
+  font-weight: 300;
   color: #fff;
   text-align: center;
   line-height: 1.67;
-  width: 80%;
+  width: 222px;
   margin: 0 auto;
-  padding: 23px 0;
+  padding: 30px 0;
 }
 
-.benefits--text {
+.benefits__text {
   color: #f89513;
   margin-bottom: 0;
 }
