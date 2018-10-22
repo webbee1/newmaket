@@ -1,19 +1,16 @@
 .benefits {
-  width: 274px;
+  width: 265px;
   margin: 60px auto 0;
   height: 430px;
   background-color: #131415;
   background-image: url(../../images/pattern/pattern.png);
-display:inline-flex;
+  display: inline-flex;
   justify-content: center;
   align-items: flex-end;
-  position:relative;
-
-   top:50px;
-   margin-bottom:50px;
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
 }
-
-
 
 .benefits__desc {
   font-family: 'open_sanslight';

@@ -1,11 +1,6 @@
-
 .socials {
-  
   text-align: center;
-  padding:10px 0;
- /* width:100%;*/
-  margin:0 auto;
-  
+  margin: 0 auto;
 }
 
 .socials__title {
@@ -14,7 +9,7 @@
   font-weight: 700;
   line-height: 3.86;
   overflow: hidden;
-  color:#221f1f;
+  color: #221f1f;
 }
 
 .socials__item {
@@ -29,7 +24,7 @@
 .socials__link {
   width: 17px;
   height: 17px;
-  border-radius:50%;
+  border-radius: 50%;
   display: block;
   background-position: center center;
   background-repeat: no-repeat;
@@ -54,7 +49,7 @@
 }
 
 .socials__link--tw {
- background: url('../../images/sprites/sprite_all.png') 33px 41px;
+  background: url('../../images/sprites/sprite_all.png') 33px 41px;
 }
 
 .socials__link--mail {
@@ -62,6 +57,6 @@
 }
 
 
-.socials--price{
-  margin-bottom:50px;
+.socials--price {
+  margin-bottom: 50px;
 }
