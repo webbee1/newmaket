@@ -1,63 +1,34 @@
-/*NEWS*/
-.newsbox {
-  display: flex;
-  margin-bottom: 19px;
-  margin-top: 0;
-  
-}
-
-.newsbox .col__left--news:first-child {
-  padding-right: 28px;
-}
-
-.col__right--news {
-  flex: 1;
-  text-align: left;
- 
-}
-
-.col__left--news {
-  text-align: center;
-  padding-right: 50px;
-}
-
-.title {
+.news__title {
   color: #221f1f;
-  font-family: 'open_sansbold';
   font-size: 49px;
-  font-weight: 700;
-  text-transform: uppercase;
+  margin-bottom: 25px;
   letter-spacing: 1.5px;
-  text-align: left;
-  overflow: hidden;
   display: inline-block;
-  margin-bottom: 8px;
+}
+
+.side-right {
+  width: 75%;
+  padding: 0 5px;
 }
 
 .news__list {
-  display: inline-block;
-  margin-bottom: 57px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 2;
 }
 
 .news__item {
-  margin-bottom: 25px;
-  padding: 9px 11px;
-}
-
-.news__item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 22px;
 }
 
 .news__item:not(:last-child) {
   border-bottom: 2px solid #f5f5f5;
 }
 
-.news__item:last-child {
-  margin-bottom: 0;
-}
-
 .news__item-wrap {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: flex-end;
 }
 
 .news__image {
@@ -69,39 +40,53 @@
 }
 
 .news__content {
-  width: 75%;
-  margin-left: 15px;
+  max-width: 635px;
   display: inline-block;
+  margin-bottom: 30px;
   font-size: 18px;
   font-family: 'open_sanslight';
-  padding: 0 10px;
+}
+
+
+.news__content-date,
+.news__content-title,
+.news__content-text {
+  font-family: 'Roboto';
 }
 
 .news__content-date {
   color: #656464;
   font-size: 14px;
-  font-family: 'Roboto';
+  line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .news__content-title {
-  font-size: 16px;
-  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 21px;
   font-weight: 700;
   color: #221f1f;
 }
 
 .news__content-text {
-  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 300;
   color: #656464;
-  line-height: 1.6;
+  line-height: 1.67;
   text-align: left;
   overflow: hidden;
 }
 
 .news__ava {
-  display: inline-block;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.news__item:last-child {
+  margin-bottom: 0;
+}
+
+li.news__item:last-child {
+  margin-bottom: 0;
 }

@@ -1,10 +1,6 @@
-
 .socials {
-  display: inline-block;
   text-align: center;
-  padding:10px 0;
-  width:100%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .socials__title {
@@ -13,7 +9,7 @@
   font-weight: 700;
   line-height: 3.86;
   overflow: hidden;
-  color:#221f1f;
+  color: #221f1f;
 }
 
 .socials__item {
@@ -26,9 +22,9 @@
 }
 
 .socials__link {
-  width: 20px;
-  height: 20px;
-  border-radius:50%;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
   display: block;
   background-position: center center;
   background-repeat: no-repeat;
@@ -39,26 +35,28 @@
   transition: 0.5s;
 }
 
+
 .socials__link--vk {
-  background: url('../../images/sprites/sprite_all.png') 83px 46px;
-  
+  background: url('../../images/sprites/sprite_all.png') 65px 42px;
 }
 
 .socials__link--fb {
-  background: url('../../images/sprites/sprite_all.png') -82px 43px;
+  background: url('../../images/sprites/sprite_all.png') -69px 40px;
 }
 
 .socials__link--goo {
-  background: url('../../images/sprites/sprite_all.png') 19px 45px;
-  
+  background: url('../../images/sprites/sprite_all.png') 17px 41px;
 }
 
 .socials__link--tw {
- background: url('../../images/sprites/sprite_all.png') 40px 45px;
- 
+  background: url('../../images/sprites/sprite_all.png') 33px 41px;
 }
 
 .socials__link--mail {
-  background: url('../../images/sprites/sprite_all.png') 62px 45px;
- 
+  background: url('../../images/sprites/sprite_all.png') 48px 41px;
+}
+
+
+.socials--price {
+  margin-bottom: 50px;
 }

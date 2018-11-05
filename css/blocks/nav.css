@@ -1,78 +1,68 @@
 /*NAV*/
+.nav__list {
+  width: 140px;
+  position: relative;
+  top: 39px;
+}
 
-nav.nav{
-  max-width: 150px;
-  margin:25px 35px auto 2px;
-  margin-bottom:0;
-}
-.nav__list{
-  margin-bottom:65px;
-  margin-bottom:20px;
-}
 .nav__item {
-  cursor: pointer;
-  text-align: left;
-  margin-bottom: 20px;
- 
+cursor: pointer;
+display: flex;
+vertical-align: middle;
+margin-bottom: 25px;
 }
 
 .nav__item:last-child {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 .nav__link {
-  font-family: 'open_sansbold';
-  font-size: 12px;
-  color: #f89513;
-  font-weight: 700;
-  letter-spacing: 1.2px;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
+display: inline-flex;
+justify-content: center;
+color: #f89513;
+font-weight: 700;
+letter-spacing: 1.2px;
+font-size: 12px;
 }
 
 .nav__link:before {
-  content: '';
-  margin-right: 15px;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: baseline;
-  width: 20px;
-  height: 18px;
-
+content: '';
+margin-right: 15px;
+display: inline-block;
+width: 20px;
+height: 18px;
 }
 
 .nav__link-main {
-  background: url(../../images/news/home_pulse.png) 0 3px no-repeat;
+background: url(../../images/news/home_pulse.png) 0 0px no-repeat;
 }
 
 .nav__link-review {
-  background: url(../../images/news/home_star.png) 0 1px no-repeat;
-
+background: url(../../images/news/home_star.png) 0 -1px no-repeat;
 }
 
 .nav__link-price {
-  background: url(../../images/news/home_gant.png) 0 5px no-repeat;
+background: url(../../images/news/home_gant.png) 0 0px no-repeat;
 }
 
 .nav__link-main:hover,
 .nav__link--active-main {
-  background: url(../../images/news/home_pulse.png) 0 -15px no-repeat;
+background: url(../../images/news/home_pulse.png) 0 -19px no-repeat;
 }
 
 .nav__link-review:hover,
 .nav__link--active-review {
-  background: url(../../images/news/home_star.png) 0 -19px no-repeat;
+background: url(../../images/news/home_star.png) 0 -21px no-repeat;
 }
 
 .nav__link-price:hover,
 .nav__link--active-price {
-  background: url(../../images/news/home_gant.png) 0 -15px no-repeat;
+background: url(../../images/news/home_gant.png) 0 -20px no-repeat;
 }
 
 .nav__link:hover,
 .nav__link--active-main,
 .nav__link--active-price,
 .nav__link--active-review {
-  color: #221f1f;
+color: #221f1f;
 }

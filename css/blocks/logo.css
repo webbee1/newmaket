@@ -1,7 +1,6 @@
 .logo {
-  width: 50%;
-  text-align: left;
-  padding:0 34px;
+  width: 15%;
+  align-items: center;
 }
 
 .logoletter {
@@ -9,9 +8,6 @@
   font-size: 18px;
   letter-spacing: 1.8px;
   color: #f89513;
-  display: inline-block;
-  line-height: 2.5;
-  position: relative;
 }
 
 .logoletter:hover {
